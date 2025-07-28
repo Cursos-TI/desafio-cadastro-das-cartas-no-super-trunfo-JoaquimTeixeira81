@@ -40,10 +40,11 @@ int main() {
      scanf("%c", &estado1);
 
      printf("Codigo: %s\n", codigo1);
-     
-
+     scanf("%s", &codigo1);
 
      printf("Cidade: %s\n", cidade1);
+     scanf("%s", &cidade1);
+     
      printf("População: %d\n", população1);
      printf("Area: %.2f km\n", area1);
      printf("PIB: R$ %.2f bilhões\n", pib1);
