@@ -7,8 +7,29 @@
 //Teste Joaquim Teixeira
 
 int main() {
+
+     printf("Desafio do Super Trunfo!\n");
+
     // Atributo da carta A01: São Paulo
 
+    char estado = 'A';
+    char codigo = "A01";
+    char nome [20] = "São Paulo";
+    int população = "12325000";     // Em milhões de habitantes
+    float area = 1521.11;          // Em Km quadrados
+    float pib = 699.28;           // Em bilhões de Reais
+    int pontosturisticos = "50";
+
+     // Atributos da carta B02: Rio de Janeiro
+     
+     char estado = 'B';
+     char codigo = "B02";
+     char nome [20] = "Rio de Janeiro";
+     int população = "674.800";     // Em milhões de habitantes
+     float area = "1200.25";        // Em Km quadrados
+     float pib = "300.50";          // Em bilões de Reais
+     int pontosturisticos = "30";
+      
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
