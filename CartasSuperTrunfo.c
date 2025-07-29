@@ -39,10 +39,10 @@ int main() {
 
      // Cadastro da carta A01: São Paulo 
         
-     printf("Sua Carta: \n");
+     printf("Carta 1: \n");
 
      printf("Digite o Estado: ");
-     scanf("%c", &estado1);
+     scanf(" %c", &estado1);
 
      printf("Digite o Codigo: ");
      scanf("%s", codigo1);
@@ -66,7 +66,7 @@ int main() {
      // Cadastro da carta B02: Rio de Janeiro
 
 
-    printf("Sua Carta: \n");
+    printf("Carta 2: \n");
 
      printf("Digite o Estado: ");
      scanf(" %c", &estado2);
