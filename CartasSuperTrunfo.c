@@ -16,7 +16,7 @@ int main() {
     // Atributo da carta A01: São Paulo
 
     char estado1;
-    char codigo1[10];
+    char codigo1[20];
     char cidade1[50];
     int população1;         // Em milhões de habitantes
     float area1;           // Em Km quadrados
@@ -25,17 +25,19 @@ int main() {
 
      // Atributos da carta B02: Rio de Janeiro
      
-     char estado2 = 'B';
-     char codigo2[] = "B02";
-     char cidade2[] = "Rio de Janeiro";
-     int população2 = 674.800;            // Em milhões de habitantes
-     float area2 = 1200.25;              // Em Km quadrados
-     float pib2 = 300.50;               // Em bilões de Reais
-     int pontos2 = 30;
+     char estado2;
+     char codigo2[20];
+     char cidade2[50];
+     int população2;            // Em milhões de habitantes
+     float area2;              // Em Km quadrados
+     float pib2;               // Em bilões de Reais
+     int pontos2;
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+
+     // Cadastro da carta A01: São Paulo 
         
      printf("Sua Carta: \n");
 
@@ -60,9 +62,39 @@ int main() {
      printf("Digite o numero de Pontos Turisticos: ");
      scanf("%d", &pontos1);
 
+
+     // Cadastro da carta B02: Rio de Janeiro
+
+
+    printf("Sua Carta: \n");
+
+     printf("Digite o Estado: ");
+     scanf(" %c", &estado2);
+
+     printf("Digite o Codigo: ");
+     scanf("%s", codigo2);
+
+     printf("Digite o Nome da Cidade: ");
+     scanf("%s", cidade2);
+     
+     printf("Digite a População: ");
+     scanf("%d", &população2);
+
+     printf("Digite a Area: ");
+     scanf(" %f", &area2);
+
+     printf("Digite o pib: ");
+     scanf(" %f", &pib2);
+
+     printf("Digite o numero de Pontos Turisticos: ");
+     scanf("%d", &pontos2);
+
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+      // Exibição dos dados da carta A01: São Paulo
 
      printf("O Nome do Estado: %c\n", estado1);
      printf("O Código da Cidade: %s\n", codigo1);
@@ -71,7 +103,18 @@ int main() {
      printf("A área tem: %.2f km²\n", area1);
      printf("O PIB é: R$ %.2f bilhões\n", pib1);
      printf("Pontos Turísticos: %d\n", pontos1);
+
+
+     // Exibição dos dados da carta B02: Rio de Janeiro
      
+     printf("O Nome do Estado: %c\n", estado2);
+     printf("O Código da Cidade: %s\n", codigo2);
+     printf("O Nome da Cidade é: %s\n", cidade2);
+     printf("A população tem: %d\n", população2);
+     printf("A área tem: %.2f km²\n", area2);
+     printf("O PIB é: R$ %.2f bilhões\n", pib2);
+     printf("Pontos Turísticos: %d\n", pontos2);
+
 
     return 0;
 }
