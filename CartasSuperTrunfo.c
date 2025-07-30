@@ -32,12 +32,10 @@ int main() {
      char estado2;
      char codigo2[20];
      char cidade2[50];
-     int população2;            // Em milhões de habitantes
-     float area2;              // Em Km quadrados
-     float pib2;               // Em bilões de Reais
+     int população2;         // Em milhões de habitantes
+     float area2;           // Em Km quadrados
+     float pib2;           // Em bilhões de Reais
      int pontos2;
-     float densidade2;
-     float percapita2;
 
 
 
