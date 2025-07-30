@@ -70,8 +70,8 @@ int main() {
 
     // Calculo da Densidade e Renda Per Capita
 
-     densidade1 = população1 / area1;
-     percapita1 = (pib1 * 1000.0f) / percapita1; 
+     densidade1 = (float)população1 / area1;
+     percapita1 = (pib1 * 1000.0f) / população1; 
      
      // Cadastro da carta B02: Rio de Janeiro
 
