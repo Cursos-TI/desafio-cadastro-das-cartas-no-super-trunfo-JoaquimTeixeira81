@@ -24,7 +24,7 @@ int main() {
      int pontos1;
      
      float resdensidade1 = população1 / area1;
-     float respercapita1 = pib1 / população1
+     float respercapita1 = pib1 / população1;
 
 
      // Atributos da carta B02: Rio de Janeiro
@@ -68,12 +68,7 @@ int main() {
      printf("Digite o numero de Pontos Turisticos: ");
      scanf("%d", &pontos1);
 
-     printf("Densidade Populacional é: %.2f\n hab/km²", resdensidade1);
-     scanf(" %f", &resdensidade1);
-
-     printf("PIB Per Capita é: R$ %.2f\n reais", respercapita1);
-     scanf(" %f", &respercapita1);
-
+          
      
      // Cadastro da carta B02: Rio de Janeiro
 
