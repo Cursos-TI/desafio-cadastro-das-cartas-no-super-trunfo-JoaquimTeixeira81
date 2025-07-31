@@ -71,7 +71,7 @@ int main() {
     // Calculo da Densidade e Renda Per Capita
 
      densidade1 = (float)população1 / area1;
-     percapita1 = (pib1 * 1000.0f) / população1; 
+     percapita1 = (pib1 * 1000000000.0f) / população1; 
      
      // Cadastro da carta B02: Rio de Janeiro
 
@@ -99,6 +99,10 @@ int main() {
      printf("Digite o numero de Pontos Turisticos: ");
      scanf("%d", &pontos2);
 
+     // Calculo da Densidade e Renda Per Capita
+
+     densidade2 = (float)população2 / area2;
+     percapita2 = (pib2 * 1000000000.0f) / população2; 
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -113,8 +117,8 @@ int main() {
      printf("A área tem: %.2f km²\n", area1);
      printf("O PIB é: R$ %.2f bilhões\n", pib1);
      printf("Pontos Turísticos: %d\n", pontos1);
-     printf("Densidade Populacional é: %.2f\n hab/km²", densidade1);
-     printf("PIB Per Capita é: R$ %.2f\n reais", percapita1);
+     printf("Densidade Populacional é: %.2f hab/km²\n", densidade1);
+     printf("PIB Per Capita é: R$ %.2f reais\n", percapita1);
      
 
      // Exibição dos dados da carta B02: Rio de Janeiro
@@ -126,6 +130,8 @@ int main() {
      printf("A área tem: %.2f km²\n", area2);
      printf("O PIB é: R$ %.2f bilhões\n", pib2);
      printf("Pontos Turísticos: %d\n", pontos2);
+     printf("Densidade Populacional é: %.2f hab/km²\n", densidade2);
+     printf("PIB Per Capita é: R$ %.2f reais\n", percapita2);
 
 
     return 0;
