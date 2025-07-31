@@ -24,6 +24,7 @@ int main() {
      int pontos1;
      float densidade1;
      float percapita1; 
+     float superpoder1;
 
 
      // Atributos da carta B02: Rio de Janeiro
@@ -37,6 +38,7 @@ int main() {
      int pontos2;
      float densidade2;
      float percapita2;
+     float superpoder2;
     
 
     // Cadastro das Cartas:
