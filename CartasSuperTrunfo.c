@@ -74,7 +74,7 @@ int main() {
 
      densidade1 = (float)população1 / area1;
      percapita1 = (pib1 * 1000000000.0f) / população1; 
-     superpoder1 = população1 + area1 + pib1 + pontos1 + percapita1 + (1.0f / densidade1);
+     superpoder1 = (float)população1 + area1 + pib1 + (float)pontos1 + percapita1 + (1.0f / densidade1);
      
      // Cadastro da carta B02: Rio de Janeiro
 
@@ -106,7 +106,7 @@ int main() {
 
      densidade2 = (float)população2 / area2;
      percapita2 = (pib2 * 1000000000.0f) / população2; 
-     superpoder2 = população2 + area2 + pib2 + pontos2 + percapita2 + (1.0f / densidade2);
+     superpoder2 = (float)população2 + area2 + pib2 + (float)pontos2 + percapita2 + (1.0f / densidade2);
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -149,7 +149,7 @@ int main() {
      printf("Pontos Turísticos: %d\n", pontos1 > pontos2);
      printf("PIB Per Capita: %d\n", percapita1 > percapita2);
      printf("Densidade (menor vence): %d\n", densidade1 < densidade2); // Menor densidade vence
-     printf("Super Poder: %d\n" superpoder1 > superpoder2);
+     printf("Super Poder: %d\n", superpoder1 > superpoder2);
 
 
     return 0;
