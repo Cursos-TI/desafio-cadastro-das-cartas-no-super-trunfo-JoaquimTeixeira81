@@ -143,8 +143,13 @@ int main() {
 
      printf("\n---Resulatdos da Comparação---\n");
 
-     printf("")
-
+     printf("População: %d\n", população1 > população2);
+     printf("Área: %d\n", area1 > area2);
+     printf("PIB: %d\n", pib1 > pib2);
+     printf("Pontos Turísticos: %d\n", pontos1 > pontos2);
+     printf("PIB Per Capita: %d\n", percapita1 > percapita2);
+     printf("Densidade (menor vence): %d\n", densidade1 < densidade2); // Menor densidade vence
+     printf("Super Poder: %d\n" superpoder1 > superpoder2);
 
 
     return 0;
