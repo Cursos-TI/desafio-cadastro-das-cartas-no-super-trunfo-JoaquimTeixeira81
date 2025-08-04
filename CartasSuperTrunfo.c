@@ -143,79 +143,14 @@ int main() {
 
      printf("\n---Resulatdos da Comparação---\n");
 
-     if (população1 > população2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: População\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: População\n");
-     }
 
-     if (area1 > area2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: Área\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: Área\n");
-
-     }
-
-     if (pib1 > pib2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: PIB\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: PIB\n");
-     }
-     
-     if (pontos1 > pontos2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: Pontos Turisticos\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: Ponto Turisticos\n");
-     }
-
-     if (densidade1 < densidade2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: Densidade Populacional\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: Densidade Populacional\n");
-     }
-
-     if (percapita1 > percapita2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: Renda Per Capita\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: Renda Per Capita\n");
-     }
-
-     if (superpoder1 < superpoder2)
-     {
-      printf("Carta 1: São Paulo Venceu!\n");
-      printf("Atributo Vencedor: Super Poder\n");
-     } else {
-      printf("Carta 2: Rio de Janeiro Venceu!\n");
-      printf("Atributo Vencedor: Super POder\n");
-     }
-
-
-
-     // printf("População: %d\n", população1 > população2);
-     // printf("Área: %d\n", area1 > area2);
-     //printf("PIB: %d\n", pib1 > pib2);
-     //printf("Pontos Turísticos: %d\n", pontos1 > pontos2);
-     //printf("PIB Per Capita: %d\n", percapita1 > percapita2);
-     //printf("Densidade (menor vence): %d\n", densidade1 < densidade2); // Menor densidade vence
-     //printf("Super Poder: %d\n", superpoder1 > superpoder2);
+     printf("População: %d\n", população1 > população2);
+     printf("Área: %d\n", area1 > area2);
+     printf("PIB: %d\n", pib1 > pib2);
+     printf("Pontos Turísticos: %d\n", pontos1 > pontos2);
+     printf("PIB Per Capita: %d\n", percapita1 > percapita2);
+     printf("Densidade (menor vence): %d\n", densidade1 < densidade2); // Menor densidade vence
+     printf("Super Poder: %d\n", superpoder1 > superpoder2);
 
 
     return 0;
